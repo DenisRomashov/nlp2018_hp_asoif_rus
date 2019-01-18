@@ -138,7 +138,7 @@ _
 </td></tr> </table>  
 
 \
-**Analogies evaluation** after lemmatisation **(ENG)**
+**Analogies evaluation**  **(ENG)**
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
 <tr><td>
