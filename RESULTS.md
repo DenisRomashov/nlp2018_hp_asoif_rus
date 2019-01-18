@@ -258,7 +258,7 @@ asoif_ft_1              | 0.0 | 0.0 | **0.0**
 </td></tr> </table>  
 
 \
-**Doesn't match** after lemmatisation **(ENG)**
+**Doesn't match** **(ENG)**
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
 <tr><td>
