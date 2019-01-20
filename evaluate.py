@@ -1,3 +1,9 @@
+"""
+This is the main file where you can run the end-to-end process.
+In order not to carry out part of the task, just comment it out.
+"""
+
+
 from create_questions import create_questions
 from check_frequencies import check_freq
 from create_models import create_models
@@ -6,7 +12,7 @@ from doesnt_match_evaluation import doesnt_match_evaluation
 
 
 print("\nCreating questions files...")
-#create_questions()
+create_questions()
 print('Questions created in datasets directory\n')
 print("Creating Frequencies for Harry Potter...")
 check_freq("hp", "./books/hp_result.txt")
@@ -16,8 +22,8 @@ check_freq("soiaf", "./books/asoif_result.txt")
 print("Frequencies for A Song of Ice and Fire created in datasets directory\n")
 
 
-# create_models("hp")
-# create_models("asoif")
+create_models("hp")
+create_models("asoif")
 
 
 analogies_evaluation("hp")

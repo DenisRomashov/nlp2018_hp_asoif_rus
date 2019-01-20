@@ -91,14 +91,14 @@ def set_config(book_name):
             ## word2vec bash constructed models
             ('hp_default_w2v', 'bin'),
             ('hp_w2v_1', 'bin'),
-            # ('hp_w2v_2', 'bin'),
-            # ('hp_w2v_3', 'bin'),
-            # ('hp_w2v_4', 'bin'),
-            #
-            # ## FastText bash constructed models
-            # ('hp_default_ft', 'bin'),
-            # ('hp_ft_1', 'bin'),
-            # ('hp_ft_2', 'bin'),
+            ('hp_w2v_2', 'bin'),
+            ('hp_w2v_3', 'bin'),
+            ('hp_w2v_4', 'bin'),
+
+            ## FastText bash constructed models
+            ('hp_default_ft', 'bin'),
+            ('hp_ft_1', 'bin'),
+            ('hp_ft_2', 'bin'),
         ]
 
         if NGRAMS:
