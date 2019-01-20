@@ -47,3 +47,5 @@ It will:
 
 You can easily change settings of evaluation process in ```src/analogies_evaluation.py``` and ```src/doesnt_match_evaluation.py``` files.
 Also you can skip some steps like *1. create questions* and  *2. check frequencies* because there is no need to rerun these scripts if you haven't changed term files.
+
+![Check frequencies comparison](https://github.com/DenisRomashov/nlp2018_hp_asoif_rus/blob/master/md_sources/check_frequencies_comparison.png)
