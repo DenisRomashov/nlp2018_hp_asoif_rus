@@ -50,9 +50,11 @@ You can easily change settings of evaluation process in ```src/analogies_evaluat
 Also you can skip some steps like *1. create questions* and  *2. check frequencies* because there is no need to rerun these scripts if you haven't changed term files.
 
 ## Importance of lemmatization
-
+Analogies:
 ![Check frequencies comparison](https://github.com/DenisRomashov/nlp2018_hp_asoif_rus/blob/master/md_sources/check_frequencies_comparison.png)
 
+Word intrusion:
+![Check frequencies comparison](https://github.com/DenisRomashov/nlp2018_hp_asoif_rus/blob/master/md_sources/check_frequencies_comparison_doesnt_match.png)
 As you can see, lemmatization of corpus helps to increase term frequencies. The main problem of training russian dataset is a range of different forms of word which mean the same but written in a different way because of a grammar rules. Example:
 Russian:
 > *Озеро* - за *Озеро***м**
