@@ -1,3 +1,9 @@
+"""
+Script to create models of various configurations
+If some models are not needed, just comment them out.
+
+"""
+
 import sys
 
 import gensim
@@ -7,6 +13,7 @@ from gensim.models.word2vec import LineSentence
 SAVE_PATH = "./models/"
 BOOKS_PATH = "./books/"
 EXTENSION = ".model"
+
 
 def create_models(book_name):
     print("Creating models for " + book_name.upper() + " . . . ")
@@ -25,7 +32,7 @@ def create_models(book_name):
     model.wv.save_word2vec_format(SAVE_PATH + book_name + "_w2v_2" + EXTENSION, binary=True)
 
     print("Training w2v 3 . . . ")
-    model = gensim.models.Word2Vec(sentences, size=300, negative=15, sg=1, hs=1, iter=15, window=12)
+    model = gensim.models.Word2Vec(sentences, size=300, negative=15, sg=1, hs=0, iter=15, window=12)
     model.wv.save_word2vec_format(SAVE_PATH + book_name + "_w2v_3" + EXTENSION, binary=True)
 
     print("Training w2v 4 . . . ")
@@ -41,6 +48,6 @@ def create_models(book_name):
     model.wv.save_word2vec_format(SAVE_PATH + book_name + "_ft_1" + EXTENSION, binary=True)
 
     print("Training ft 2 . . . ")
-    model = FastText(sentences, sg=1, hs=1, size=300, iter=15, window=12, negative=15)
+    model = FastText(sentences, sg=1, hs=0, size=300, iter=15, window=12, negative=15)
     model.wv.save_word2vec_format(SAVE_PATH + book_name + "_ft_2" + EXTENSION, binary=True)
     print("Training successfully\n")
