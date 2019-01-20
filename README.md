@@ -51,9 +51,11 @@ Also you can skip some steps like *1. create questions* and  *2. check frequenci
 
 ## Importance of lemmatization
 Analogies:
+
 ![Check frequencies comparison](https://github.com/DenisRomashov/nlp2018_hp_asoif_rus/blob/master/md_sources/check_frequencies_comparison.png)
 
 Word intrusion:
+
 ![Check frequencies comparison](https://github.com/DenisRomashov/nlp2018_hp_asoif_rus/blob/master/md_sources/check_frequencies_comparison_doesnt_match.png)
 
 As you can see, lemmatization of corpus helps to increase term frequencies. The main problem of training russian dataset is a range of different forms of word which mean the same but written in a different way because of a grammar rules. Example:
