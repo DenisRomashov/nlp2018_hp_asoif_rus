@@ -376,3 +376,9 @@ wiki.ru.vec              | 25.0 | 25.0 | 25.0 | 30.0 | **25.36**
 
 </td></tr> </table>  
 
+\
+## NUMBER OF TASKS FOR HP AND ASOIF
+|                |HP                          |ASOIF                         |
+|----------------|-------------------------------|-----------------------------|
+| ANALOGIES NUMBER OF TASKS|     3850    |      2618            |
+|DOESN'T MATCH NUMBER OF TASKS    |  8337   |11180            |
