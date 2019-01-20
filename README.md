@@ -10,7 +10,7 @@ $ python evaluate.py
 ```
 It will:
 
- 1. create questions - generates 4 files in ```../datasets```  directory for models evaluating: 
+ 1. create questions - generate 4 files in ```../datasets```  directory for models evaluating: 
 	 - *questions_{hp/soiaf}_analogies_rus.txt* 
 	 -  *questions_{hp/soiaf}_doesnt_match_rus.txt*
 	
