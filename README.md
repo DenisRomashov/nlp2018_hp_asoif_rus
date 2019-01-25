@@ -5,6 +5,35 @@ We used two popular fantasy novel corpora, “Harry Potter” (HP) by JK Rowling
 
 These dataset are based on English language datasets, see also: [English Version of the Datasets](https://github.com/gwohlgen/digitalhumanities_dataset_and_eval).
 
+Here, you find basic information about the *dataset*, *Usage* of the reposity, and *lemmatization*.
+The overview of evaluation results for the *analogy* and *word intrustion* tasks can be found [here in RESULTS.MD](RESULTS.md).
+
+## Datasets
+
+The Russian language datasets can be found in the [datasets directory](datasets).
+
+Like in the original word2vec-toolkit, the files to be evaluated are named `questions`\*.
+There are four datasets:
+* `datasets/questions_soiaf_analogies_rus.txt`: Analogies relation test data for *A Song of Ice and Fire*
+* `datasets/questions_soiaf_doesn_match_rus.txt`: Doesnt_match task test data for *A Song of Ice and Fire*
+* `datasets/questions_hp_analogies_rus.txt`: Analogies relation test data for *Harry Potter*
+* `datasets/questions_hp_doesn_match_rus.txt`: Doesnt_match task test data for *Harry Potter*
+<!-- * **NEW:**: There are now 4 more datasets, same as the 4 original ones, but for n-gram data. 
+    The **n-gram** datasets are easily recognizable, they have `_ngram` in the file name. -->
+
+If you want to extend or modify the test data, edit the respective source files in the folder [datasets](datasets):
+`hp_analogies.txt`, `hp_does_not_match.txt`, `soiaf_analogies.txt`,`soiaf_does_not_match.txt`.
+
+After modifying the test data run the following command to re-create the datasets (the `question_` files).
+```
+    cd datasets
+    python create_questions.py
+```
+
+This will generate section-based permutations to create the evaluation datasets.
+You can also add completly new datasets and add a line into `create_questions.py`.
+
+
 
 ## Usage 
 
@@ -75,7 +104,7 @@ English:
 
 Lemmatization changes all forms to their base form and in general helps to achieve better results in our setting (of small corpora).
 
-## Importance of lemmatization
+## Evalution Results 
 
 Extensive evaluation results for the *analogy* and *word intrustion* tasks can be found [here in RESULTS.MD](RESULTS.md).
 
