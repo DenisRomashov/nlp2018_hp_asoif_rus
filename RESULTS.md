@@ -1,4 +1,7 @@
 
+We used the plain text from the following 2 books series to create our models:
+
+
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
 <tr><td>
@@ -77,6 +80,10 @@ _
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
 <tr><td>
+
+
+## Evaluation results for *analogies*
+
 
 |                        |         |   **SECTIONS**     |         |        |         |        
 |---------------------------------|---------|--------|---------|--------|----------|
