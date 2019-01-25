@@ -76,13 +76,15 @@ _
 
 </td></tr> </table> 
 
+## Evaluation results for *analogies*
+
 **Analogies evaluation** before lemmatisation **(RUS)**
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
 <tr><td>
 
 
-## Evaluation results for *analogies*
+
 
 
 |                        |         |   **SECTIONS**     |         |        |         |        
@@ -201,6 +203,12 @@ asoif_ft_1              | 0.0 | 0.0 | **0.0**
 
 ------
 \
+
+
+
+
+## Evaluation results for *word intrusion*
+
 **Doesn't match evaluation** before lemmatisation **(RUS)**
 <table>
 <tr><th>HP</th><th>ASOIF</th></tr>
